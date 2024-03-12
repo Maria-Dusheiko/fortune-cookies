@@ -1,0 +1,67 @@
+.Cookie {
+  max-width: 80%;
+  height: auto;
+  float: left;
+}
+
+.Cookie:hover {
+  cursor: pointer;
+  animation: rotate-up-and-back 1s ease infinite;
+}
+
+.Cookie:active {
+  transform: scale(0.8);
+}
+
+.Main-page {
+  max-width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Main-title {
+  font-size: 5rem;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 51rem) {
+  .Main-page {
+    flex-direction: column;
+  }
+  .Main-title {
+    font-size: 4rem;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 26rem) {
+  .Main-page {
+    flex-direction: column;
+  }
+  .Main-title {
+    font-size: 3rem;
+    max-width: 300px;
+    margin-bottom: 0px;
+  }
+}
+
+@keyframes rotate-up-and-back {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,36 @@
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.ResetBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ResetTitle {
+  font-family: "Italianno", cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.ResetImg {
+  max-width: 100px;
+  height: auto;
+  float: left;
+  transition: transform 1s ease;
+}
+
+.ResetImg:hover {
+  cursor: pointer;
+  animation:
+    scale 0,
+    3s ease;
+  transform: scale(1.2);
+}

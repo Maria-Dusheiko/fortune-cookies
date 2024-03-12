@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fortune-cookies/static/css/main.d50e0679.css",
-    "main.js": "/fortune-cookies/static/js/main.8812e425.js",
+    "main.css": "/fortune-cookies/static/css/main.38627c20.css",
+    "main.js": "/fortune-cookies/static/js/main.2221b69b.js",
     "static/media/cookie.png": "/fortune-cookies/static/media/cookie.3417eb749fd36c026832.png",
     "index.html": "/fortune-cookies/index.html",
-    "main.d50e0679.css.map": "/fortune-cookies/static/css/main.d50e0679.css.map",
-    "main.8812e425.js.map": "/fortune-cookies/static/js/main.8812e425.js.map"
+    "main.38627c20.css.map": "/fortune-cookies/static/css/main.38627c20.css.map",
+    "main.2221b69b.js.map": "/fortune-cookies/static/js/main.2221b69b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d50e0679.css",
-    "static/js/main.8812e425.js"
+    "static/css/main.38627c20.css",
+    "static/js/main.2221b69b.js"
   ]
 }

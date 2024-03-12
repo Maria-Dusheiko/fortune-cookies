@@ -12,7 +12,6 @@ export const CookiePage = ({ onClick }) => {
         alt="start button"
         className="Cookie"
         onClick={onClick}
-        width="500px"
       />
     </div>
   );

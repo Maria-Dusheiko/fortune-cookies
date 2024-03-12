@@ -1,16 +1,14 @@
 .Cookie {
+  width: 450px;
   max-width: 80%;
   height: auto;
   float: left;
+  animation: rotate-up-and-back 3s ease infinite;
 }
 
 .Cookie:hover {
   cursor: pointer;
   animation: rotate-up-and-back 1s ease infinite;
-}
-
-.Cookie:active {
-  transform: scale(0.8);
 }
 
 .Main-page {
@@ -20,6 +18,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
+  animation: opacity 0.5s ease-in-out;
 }
 
 .Main-title {
@@ -50,18 +49,28 @@
 
 @keyframes rotate-up-and-back {
   0% {
-    transform: rotate(0deg);
+    rotate: 0deg;
   }
   25% {
-    transform: rotate(-5deg);
+    rotate: -5deg;
   }
   50% {
-    transform: rotate(5deg);
+    rotate: 5deg;
   }
   75% {
-    transform: rotate(-5deg);
+    rotate: -5deg;
   }
   100% {
-    transform: rotate(0deg);
+    rotate: 0deg;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
